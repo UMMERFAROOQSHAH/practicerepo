@@ -16,6 +16,16 @@
             arr2[0] = 10;
             Console.WriteLine(arr[0]);
             Console.WriteLine(arr2[0]);
+            int i = 10;
+            int num = 5;
+            Console.WriteLine("table of number 5 is as:-");
+            for (i=1;i<=10;i++)
+            {
+               
+                Console.WriteLine(  num+ "*"+i +" = " + num*i);
+                //Console.WriteLine(i);
+
+            }
         }
     }
 }
